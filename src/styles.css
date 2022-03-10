@@ -1,0 +1,31 @@
+body {
+  margin: 0 0;
+}
+
+.textover {
+  position: relative;
+}
+.textover img {
+  width: 100%;
+  max-height: 400px;
+}
+.textover figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: white;
+  font-size: 60px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 200;
+}
+.textover figcaption h1 {
+  font-size: 68px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+.textover figcaption h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
