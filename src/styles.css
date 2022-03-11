@@ -29,3 +29,9 @@ body {
   margin-bottom: 5px;
   margin-top: 0;
 }
+
+.album-cover-pic {
+  border: solid 2px black;
+
+  margin: 20px;
+}
