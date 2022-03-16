@@ -1,37 +1,66 @@
 body {
   margin: 0 0;
+  font-family: "Source Code Pro", monospace;
+  background-color: #ededed;
 }
 
-.textover {
-  position: relative;
+h3 {
+  font-size: 20px;
+  text-align: center;
+  opacity: 95%;
 }
-.textover img {
-  width: 100%;
-  max-height: 400px;
+
+.hero {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/13910001.JPG);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-.textover figcaption {
-  position: absolute;
-  bottom: 0;
-  left: 10px;
+
+h1 {
   color: white;
-  font-size: 60px;
-  font-family: "Source Code Pro", monospace;
-  font-weight: 200;
-}
-.textover figcaption h1 {
   font-size: 68px;
   font-weight: 200;
   margin-bottom: 0;
 }
-.textover figcaption h2 {
+h2 {
+  color: white;
   font-size: 30px;
   font-weight: 200;
   margin-bottom: 5px;
   margin-top: 0;
 }
 
-.album-cover-pic {
-  border: solid 2px black;
+.album-covers-section {
+  margin-top: 50px;
+}
 
-  margin: 20px;
+.album-cover-pic {
+  margin: 40px 20px;
+}
+
+.btn {
+  color: white;
+  background-color: #373334;
+  border-color: #373334;
+  text-align: center;
+  display: block;
+  transition: all 200ms ease-in-out;
+  margin: 0 auto;
+  max-width: 326px;
+}
+
+.btn:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.album-cover-image {
+  margin: 5px auto;
+  display: block;
 }
