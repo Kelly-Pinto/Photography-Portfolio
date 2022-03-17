@@ -58,11 +58,11 @@ h2 {
 }
 
 .album-covers-section {
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 .album-cover-pic {
-  margin: 40px 20px;
+  margin: 40px 0;
 }
 
 .btn {
