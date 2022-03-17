@@ -10,16 +10,35 @@ h3 {
   opacity: 95%;
 }
 
+.kp-navbar {
+  font-size: 32px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 25px;
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-item a {
+  font-size: 20px;
+  font-weight: 100;
+}
+
 .hero {
   width: 100vw;
   height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(/images/13910001.JPG);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.inner-hero {
+  padding-top: 85px;
 }
 
 h1 {
@@ -27,6 +46,7 @@ h1 {
   font-size: 68px;
   font-weight: 200;
   margin-bottom: 0;
+  text-align: center;
 }
 h2 {
   color: white;
@@ -34,6 +54,7 @@ h2 {
   font-weight: 200;
   margin-bottom: 5px;
   margin-top: 0;
+  text-align: center;
 }
 
 .album-covers-section {
