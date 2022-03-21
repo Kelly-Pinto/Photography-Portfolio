@@ -57,6 +57,10 @@ h2 {
   text-align: center;
 }
 
+footer {
+  margin: 100px auto 60px auto;
+}
+
 .album-covers-section {
   margin: 50px auto;
 }
@@ -84,4 +88,16 @@ h2 {
 .album-cover-image {
   margin: 5px auto;
   display: block;
+}
+
+.footer-text {
+  font-size: 24px;
+}
+
+.footer-text span {
+  font-weight: 800;
+}
+
+.footer-text i {
+  margin: 0 10px;
 }
