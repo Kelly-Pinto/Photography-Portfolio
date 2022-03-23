@@ -58,7 +58,7 @@ h2 {
 }
 
 footer {
-  margin: 100px auto 60px auto;
+  margin: 150px auto 60px auto;
 }
 
 .album-covers-section {
@@ -99,5 +99,14 @@ footer {
 }
 
 .footer-text i {
+  font-size: 30px;
   margin: 0 10px;
+  color: #373334;
+  padding: 6px 6px;
+  border-radius: 50%;
+}
+
+.footer-text:hover i {
+  color: white;
+  background-color: #373334;
 }
