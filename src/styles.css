@@ -1,7 +1,31 @@
+:root {
+  --primary-color: #373334;
+}
+
 body {
   margin: 0 0;
   font-family: "Source Code Pro", monospace;
   background-color: #ededed;
+}
+
+h1 {
+  color: white;
+  font-size: 68px;
+  font-weight: 200;
+  margin-bottom: 0;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 5px;
+  margin-top: 0;
+  text-align: center;
+}
+
+footer {
+  margin: 150px auto 60px auto;
 }
 
 h3 {
@@ -28,6 +52,14 @@ h3 {
   font-weight: 100;
 }
 
+.navbar-mini {
+  width: 100vw;
+  background-image: url(/images/nav.13910001.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .hero {
   width: 100vw;
   height: 286px;
@@ -41,24 +73,13 @@ h3 {
   padding-top: 85px;
 }
 
-h1 {
-  color: white;
-  font-size: 68px;
-  font-weight: 200;
-  margin-bottom: 0;
-  text-align: center;
-}
-h2 {
-  color: white;
-  font-size: 30px;
-  font-weight: 200;
-  margin-bottom: 5px;
-  margin-top: 0;
-  text-align: center;
+.content-container {
+  margin-top: 80px;
 }
 
-footer {
-  margin: 150px auto 60px auto;
+.content-container h1 {
+  color: var(--primary-color);
+  margin-bottom: 25px;
 }
 
 .album-covers-section {
@@ -71,8 +92,8 @@ footer {
 
 .btn {
   color: white;
-  background-color: #373334;
-  border-color: #373334;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   text-align: center;
   display: block;
   transition: all 200ms ease-in-out;
@@ -85,9 +106,29 @@ footer {
   opacity: 0.8;
 }
 
-.album-cover-image {
+.album-cover-image,
+.album-snapshot {
   margin: 5px auto;
   display: block;
+}
+
+.album-snapshot {
+  max-width: 280px;
+}
+
+.album-description {
+  font-size: 20px;
+  display: inline;
+}
+
+.album-row {
+  margin: 40px 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.column {
+  min-width: 348px;
 }
 
 .footer-text {
@@ -101,12 +142,16 @@ footer {
 .footer-text i {
   font-size: 30px;
   margin: 0 10px;
-  color: #373334;
+  color: var(--primary-color);
   padding: 6px 6px;
   border-radius: 50%;
 }
 
 .footer-text:hover i {
   color: white;
-  background-color: #373334;
+  background-color: var(--primary-color);
+}
+
+.snapshot-img {
+  max-width: 160px;
 }
