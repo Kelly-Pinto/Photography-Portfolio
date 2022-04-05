@@ -24,14 +24,14 @@ h2 {
   text-align: center;
 }
 
-footer {
-  margin: 150px auto 60px auto;
-}
-
 h3 {
   font-size: 20px;
   text-align: center;
   opacity: 95%;
+}
+
+footer {
+  margin: 150px auto 60px auto;
 }
 
 .kp-navbar {
@@ -154,4 +154,10 @@ h3 {
 
 .snapshot-img {
   max-width: 160px;
+}
+
+.about-text {
+  padding: 20px 90px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
