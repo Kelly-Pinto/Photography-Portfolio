@@ -129,6 +129,8 @@ footer {
   margin: 40px 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: #373334 solid 1px;
+  border-radius: 5px;
 }
 
 .column {
@@ -213,5 +215,20 @@ footer {
 
   .content-container {
     margin-top: 20px;
+  }
+
+  .nj2018 {
+    margin-top: 0;
+  }
+
+  .album-row {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .album-description {
+    width: 100%;
+    text-align: center;
   }
 }
