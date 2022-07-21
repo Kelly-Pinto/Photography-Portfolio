@@ -48,6 +48,7 @@ footer {
 
 .nav-item {
   padding: 0 8px;
+  max-width: 100px;
 }
 
 .nav-item a {
@@ -183,4 +184,34 @@ footer {
 .coding-credit i:hover {
   color: white;
   background-color: var(--primary-color);
+}
+
+@media (max-width: 420px) {
+  .inner-hero h1 {
+    font-size: 40px;
+    position: relative;
+    font-weight: 400;
+  }
+
+  .inner-hero h2 {
+    font-size: 18px;
+    position: relative;
+  }
+
+  .inner-hero {
+    padding-top: 0;
+  }
+
+  .about-text {
+    padding: 20px 25px;
+  }
+
+  .about-header {
+    font-size: 50px;
+    margin-top: 16px;
+  }
+
+  .content-container {
+    margin-top: 20px;
+  }
 }
